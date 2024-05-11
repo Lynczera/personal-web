@@ -1,0 +1,27 @@
+.link {
+  display: block;
+  line-height: 1;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: var(--mantine-color-gray-7)!important;
+  font-size: var(--mantine-font-size-l);
+  font-weight: 500;
+
+  &:hover {
+    background-color: light-dark(
+      var(--mantine-color-gray-0),
+      var(--mantine-color-dark-6)
+    );
+  }
+
+  [data-mantine-color-scheme] &[data-active] {
+    background-color: var(--mantine-color-blue-1);
+    color: var(--mantine-color-blue-6)!important;
+  }
+}
+
+.header {
+  height: rem(56px);
+  margin-bottom: rem(120px);
+  background-color: var(--mantine-color-body);
+}
