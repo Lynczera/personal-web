@@ -1,15 +1,8 @@
 import { Navbar } from "../components/Navbar";
-import {
-  Flex,
-  Image,
-  Text,
-  Card,
-  Group,
-  Badge,
-  Button,
-} from "@mantine/core";
+import { Flex, Image, Text, Card, Group, Badge, Button } from "@mantine/core";
 
 import projectsObj from "../consts/projects.json";
+import classes from "./Projects.module.css";
 
 export const Projects = () => {
   return (
@@ -32,6 +25,7 @@ export const Projects = () => {
                 radius="md"
                 withBorder
                 w={650}
+                className={classes.card}
               >
                 <Card.Section>
                   <Image src={proj.image} height={160} fit="contain" mt={10} />
