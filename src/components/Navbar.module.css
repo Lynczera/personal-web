@@ -3,7 +3,7 @@
   line-height: 1;
   border-radius: var(--mantine-radius-sm);
   text-decoration: none;
-  color: var(--mantine-color-gray-7)!important;
+  color: var(--mantine-color-gray-7) !important;
   font-size: var(--mantine-font-size-l);
   font-weight: 500;
 
@@ -16,12 +16,11 @@
 
   [data-mantine-color-scheme] &[data-active] {
     background-color: var(--mantine-color-blue-1);
-    color: var(--mantine-color-blue-6)!important;
+    color: var(--mantine-color-blue-6) !important;
   }
 }
 
-.header {
-  height: rem(56px);
-  margin-bottom: rem(120px);
-  background-color: var(--mantine-color-body);
+.inner{
+  border-bottom: 1px solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 }
