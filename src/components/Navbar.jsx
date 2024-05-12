@@ -6,7 +6,6 @@ import {
   Group,
   Transition,
   Paper,
-  Container,
 } from "@mantine/core";
 import classes from "./Navbar.module.css";
 import { useState } from "react";
