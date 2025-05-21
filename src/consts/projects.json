@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Youtube Short to Video Extension",
-		"description": "A chrome extension that converts a youtube short to a video and vise versa after just converting",
+		"description": "A chrome extension that converts a youtube short to a video and vise versa",
 		"image": "../../projectsImgs/convertIcon.png",
 		"version": "V2.0.1",
 		"links": [
@@ -28,6 +28,18 @@
 			{
 				"name": "Server GitHub",
 				"link": "https://github.com/Lynczera/jobs-tracker-server"
+			}
+		]
+	},
+	{
+		"title": "WatchOut",
+		"description": "A mobile application to track bars' TV Schedules",
+		"image": "../../projectsImgs/watchoutIcon.png",
+		"version": "V1.0",
+		"links": [
+			{
+				"name": "Project Repo",
+				"link": "https://github.com/Lynczera/WatchOut"
 			}
 		]
 	}

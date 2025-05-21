@@ -15,7 +15,7 @@ export const Home = () => {
               mx="auto"
               radius="md"
               src="leonardochenpic.png"
-              alt="Random image"
+              alt="Profile Image"
             />
           </Grid.Col>
 
@@ -38,24 +38,14 @@ export const Home = () => {
               >
                 <Container size="xs" px="xs">
                   <Text
-                    c="#74C0FC"
+                    c="#539FE3"
                     sx={{ fontFamily: "Greycliff CF, sans-serif" }}
                     ta="left"
                     fz="xl"
-                    fw={700}
+                    fw={750}
                   >
-                    Hi, my name is Leonardo Chen, and I am a Computer Science
-                    student at{" "}
-                    {
-                      <Anchor
-                        inherit={true}
-                        underline="never"
-                        href="https://www.utah.edu/"
-                        c="#4263EB"
-                      >
-                        The University Of Utah.
-                      </Anchor>
-                    }{" "}
+                    Hi! my name is Leonardo Chen, and I am a Software Engineer 
+                    with Bachelor's in Computer Science.
                     This is my personal website where I show my projects and
                     share professional informations.
                   </Text>
@@ -79,10 +69,16 @@ export const Home = () => {
                   href="https://www.linkedin.com/in/leonardo-chen-492582230/"
                   className="linkedinLink"
                 >
-                  {" "}
                   <FaLinkedin size={56} color="#1864AB" />
                 </a>
               </Flex>
+              <Image
+              maw={480}
+              radius="sm"
+              src="anyaPenPaper.png"
+              alt="Anya"
+              style={{marginTop : 38}}
+            />
             </Flex>
           </Grid.Col>
         </Grid>

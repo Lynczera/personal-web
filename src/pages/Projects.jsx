@@ -8,7 +8,7 @@ export const Projects = () => {
   return (
     <>
       <Navbar />
-      <div className="projectDiv">
+      <div className="projectDiv" style={{marginBottom : 40}}>
         <Flex
           mih={50}
           gap="md"
