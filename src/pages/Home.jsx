@@ -44,10 +44,10 @@ export const Home = () => {
                     fz="xl"
                     fw={750}
                   >
-                    Hi! my name is Leonardo Chen, and I am a Software Engineer 
+                    Hi! My name is Leonardo Chen, and I am a Software Engineer 
                     with Bachelor's in Computer Science.
-                    This is my personal website where I show my projects and
-                    share professional informations.
+                    This is my personal website where I share my projects and
+                    professional information.
                   </Text>
                 </Container>
               </Flex>
