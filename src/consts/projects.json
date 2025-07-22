@@ -1,48 +1,42 @@
 [
-	{
-		"title": "Youtube Short to Video Extension",
-		"description": "A chrome extension that converts a youtube short to a video and vise versa",
-		"image": "../../projectsImgs/convertIcon.png",
-		"version": "V2.0.1",
-		"links": [
-			{
-				"name": "GitHub",
-				"link": "https://github.com/Lynczera/youtubeShortConverter"
-			},
-			{
-				"name": "Chrome Store",
-				"link": "https://chrome.google.com/webstore/detail/youtube-short-to-video-co/ahpfmcbhbecekponcmndgbalgncfelab?hl=en&authuser=0"
-			}
-		]
-	},
-	{
-		"title": "Jobs Tracker",
-		"description": "A web application to track users' job applications",
-		"image": "../../leonardodevicon.png",
-		"version": "V1.0",
-		"links": [
-			{
-				"name": "Client GitHub",
-				"link": "https://github.com/Lynczera/jobs-tracker"
-			},
-			{
-				"name": "Server GitHub",
-				"link": "https://github.com/Lynczera/jobs-tracker-server"
-			}
-		]
-	},
-	{
-		"title": "WatchOut",
-		"description": "A mobile application to track bars' TV Schedules",
-		"image": "../../projectsImgs/watchoutIcon.png",
-		"version": "V1.0",
-		"links": [
-			{
-				"name": "Project Repo",
-				"link": "https://github.com/Lynczera/WatchOut"
-			}
-		]
-	}
-
-	
+  {
+    "title": "Youtube Short to Video Extension",
+    "description": "A chrome extension that converts a youtube short to a video and vise versa",
+    "image": "../../projectsImgs/convertIcon.png",
+    "version": "V2.0.1",
+    "links": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/Lynczera/youtubeShortConverter"
+      }
+    ]
+  },
+  {
+    "title": "Jobs Tracker",
+    "description": "A web application to track users' job applications",
+    "image": "../../leonardodevicon.png",
+    "version": "V1.0",
+    "links": [
+      {
+        "name": "Client GitHub",
+        "link": "https://github.com/Lynczera/jobs-tracker"
+      },
+      {
+        "name": "Server GitHub",
+        "link": "https://github.com/Lynczera/jobs-tracker-server"
+      }
+    ]
+  },
+  {
+    "title": "WatchOut",
+    "description": "A mobile application to track bars' TV Schedules",
+    "image": "../../projectsImgs/watchoutIcon.png",
+    "version": "V1.0",
+    "links": [
+      {
+        "name": "Project Repo",
+        "link": "https://github.com/Lynczera/WatchOut"
+      }
+    ]
+  }
 ]
